@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Personal Portfolio</title>
+	<meta charset="utf8">
+	<style>
+	
+body {background-color: #bfe5fa;	
+	font-size: 110%;
+	font: Arial;}
+
+#bodywrapper{ width: 90%;
+			font: Arial;
+			margin-left: auto;
+			margin-right: auto;
+			background-color:	#EAEACA;	
+			padding: 10px, 10px, 10px}
+		
+h1   {	text-align: center;
+		font-size: 150%;
+		padding: 0;
+		text-shadow: 3px 3px 3px #F4E8BC;}
+#aboutMe{ padding: 10px, 10px, 10px}
+		
+#images{float: center;
+		padding: 10px, 10px, 10px;}
+#laptop{float: right;
+		padding-right: 40px;
+		padding-left: 150px;}
+#contactMe{	float:right;
+			font-size: 105%;
+			}
+		
+footer{ background-color: white
+		float: center;
+		margin-left: 170px;
+		margin-right: auto;
+		padding-top: 5px;
+		}
+//needs right column, maybe div few images and float right or column + in the script the id or object needs to be declared as a variable, then the div as ID can be added to an event listener to change image transparancy or the focus of the text. may be kept in the ccs, contact me needs its own page and style needs global. 
+	</style>
+</head>
+<body>
+<h1>My Portfolio</h1>
+<img id='laptop' src="laptop.jfif" width="250" height="180" alt="laptop">
+<div id="bodywrapper" >
+<h2 id= 'aboutMe'>About me</h2>
+<p>My name is Alan, I am a keen developer and quite new to this scene. Here I will showcase some my skills to you. What i enjoy about coding is how it challenges my ability to think critically and to solve problems. I also like putting together an attractive front-end and so far am finding JavaScript quite fun!
+</p>
+<h3 id= 'what'>What i'm learning</h3>
+<ul>
+	<li>HTML</li>
+	<li>CSS</li>
+	<li>JavaScript</li>
+	<li>GitHub</li>
+	<li>Python</li>
+	<li>Much more coming soon..</li>
+</ul>
+<h4>My GitHub</h4>
+<a href= "https://github.com/a-foxx">Click here to see!</a>
+
+
+</div>
+<script>
+// variable for id here
+element.addEventListener('onmouseover', mouseoverDiv)
+const mouseoverDiv = function mouseOver() {
+document.getElementById('bodywrapper').onmouseover = background-color: white; font-size: 110% });
+</script>
+</body>
+<footer>
+<div id='images'>
+<img src="Python-logo.png" width="200" height="140" alt="Python logo">
+<img src="HTML-CSS-JS.png" width="400" height="140" alt="HTML CSS JS logo">
+<img src="github-logo.png" width="300" height="140" alt="Github logo">
+</div>
+<div id=contactMe>
+Contact Me!
+<textarea id= 'contactMe' name= 'contactMe' rows= '4' cols= '15'>
+Feel free to write me a message.
+</textarea><br><br>
+<input type='submit'>
+</footer>
+</html>
+<link rel="stylesheet" href="portfolioStyle.cSSs" >

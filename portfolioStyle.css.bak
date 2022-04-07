@@ -1,0 +1,13 @@
+body {	background-color:	#000066;	}
+
+#wrapper{ width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		background-color:	#EAEAEA;	}
+		
+		h1   {	text-align: center;
+		font-size: 200%;
+		padding: 2% 0;
+		text-shadow: 3px 3px 3px #F4E8BC;}
+		
+		border-bottom: 2px ridge #00005D;
